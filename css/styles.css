@@ -656,6 +656,11 @@ body {
   visibility: hidden;
   pointer-events: none;
 }
+.close-btn-icon {
+  height: 11px;
+  width: 11px;
+  fill: var(--nav-link-color);
+}
 .modal-title {
   font-weight: 700;
   font-size: 20px;
