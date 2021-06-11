@@ -736,8 +736,12 @@ body {
   border-color: var(--accent-color);
 }
 .close-btn-icon {
-  width: 18px;
-  height: 18px;
+  width: 11px;
+  height: 11px;
+}
+.close-btn-icon:hover,
+.close-btn-icon:focus {
+  fill: var(--accent-color);
 }
 
 .label-name {
