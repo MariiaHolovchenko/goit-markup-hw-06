@@ -761,6 +761,7 @@ body {
   width: 16px;
   height: 15px;
   margin-right: 7px;
+  margin-left: 13px;
 
   background-image: url("../images/icon-check-off.svg");
 }
