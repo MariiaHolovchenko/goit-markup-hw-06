@@ -196,12 +196,12 @@ body {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-color: var(--alt-background-color);
+  /* background-color: var(--alt-background-color); */
   background-image: linear-gradient(
       var(--overlay-hero-bg-color),
       var(--overlay-hero-bg-color)
     ),
-    url("../images/baner.jpg");
+    url("../images/bg-desktop.jpg");
   background-size: cover;
 }
 .hero-container {
@@ -639,28 +639,13 @@ body {
   border-radius: 4px;
   padding: 40px;
 }
-.modal-close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: transparent;
-  border: 1px solid var(--border-close-btn);
-  cursor: pointer;
-  padding: 0;
-}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-.close-btn-icon {
-  height: 11px;
-  width: 11px;
-  fill: var(--nav-link-color);
-}
+
 .modal-title {
   font-weight: 700;
   font-size: 20px;
@@ -737,6 +722,25 @@ body {
 }
 .modal-contact-comment:focus {
   border-color: var(--accent-color);
+}
+
+.modal-close-btn {
+  right: 8px;
+  top: 8px;
+  position: absolute;
+  fill: var(--nav-link-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .close-btn-icon:hover,
